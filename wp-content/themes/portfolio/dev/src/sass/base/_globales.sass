@@ -1,0 +1,56 @@
+@use 'variables' as var
+// @use "mixins" as m;
+
+html
+  font-size: 62.5%
+  box-sizing: border-box
+
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+body
+  font-size: 1.8rem
+  min-height: 100%
+  background-color: var.$blanco
+  
+
+a
+  font-family: var.$texto
+  font-weight: bold
+  text-decoration: none
+
+img
+  width: 100%
+  height: auto
+
+.text-center
+  text-align: center
+
+h1
+  font-size: 4rem
+
+h2
+  font-size: 3.4rem
+
+h3
+  font-size: 2.8rem
+
+h1,h2,h3
+  font-family: var.$heading
+
+h4
+  font-family: var.$texto
+  font-size: 2.4rem
+  font-weight: bold
+
+p
+  font-family: var.$texto
+  font-size: 2rem
+
+a,h1,h2,h3,h4,p
+  color: var.$negro-oscuro
+
+ul
+  list-style: none
